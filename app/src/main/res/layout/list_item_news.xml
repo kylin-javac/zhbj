@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:padding="1dp"
+        android:scaleType="fitXY"
+        android:id="@+id/image_news_icon"
+        android:src="@mipmap/image_demo"/>
+    <TextView
+        android:id="@+id/tv_news_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/image_news_icon"
+        android:textSize="20sp"
+        android:maxLines="2"
+        android:paddingLeft="5dp"
+        android:ellipsize="end"
+        android:text="拉多少积分的手机发来看的房价 锋的数据开放结束的反；的首付款馈"/>
+    <TextView
+        android:id="@+id/tv_news_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/image_news_icon"
+        android:layout_below="@+id/tv_news_title"
+        android:textSize="16sp"
+        android:paddingLeft="5dp"
+        android:text="2016-4-4 15:16"/>
+
+</RelativeLayout>
